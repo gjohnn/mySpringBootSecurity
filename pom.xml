@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com</groupId>
-	<artifactId>goPlanner</artifactId>
+	<artifactId>security_john</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>goPlanner</name>
-	<description>goPlanner</description>
+	<name>security_john</name>
+	<description>security_john</description>
 	<url/>
 	<licenses>
 		<license/>
