@@ -29,7 +29,8 @@ public class SecurityConfig {
             "/api/v1/**"
     };
 
-    @Bean
+    @SuppressWarnings("deprecation")
+@Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http
                 .csrf(csrf -> csrf.disable())

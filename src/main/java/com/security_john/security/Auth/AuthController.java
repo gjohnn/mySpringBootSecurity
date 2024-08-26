@@ -1,6 +1,5 @@
 package com.security_john.security.Auth;
 
-import com.security_john.User.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class AuthController {
 
-    private final UserRepository userRepository;
     private final AuthService authService;
 
 
